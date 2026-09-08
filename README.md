@@ -29,10 +29,10 @@ flexural-torsional-vibration-isolation/
 │   ├── fig13_torsional_transmission_nc.txt
 │   ├── fig13_torsional_transmission_sc.txt
 ├── COMSOL/
-│   ├── flexural_SC.mph
-│   ├── flexural_NC.mph
-│   ├── torsional_SC.mph
-│   └── torsional_NC.mph
+│   ├── flexural_SC.m
+│   ├── flexural_NC.m
+│   ├── torsional_SC.m
+│   └── torsional_NC.m
 └── README.md
 ```
 
