@@ -10,7 +10,7 @@ This repository contains the MATLAB plotting scripts, numerical data, and COMSOL
 ## Repository Structure
 
 ```
-JSV_开源/
+flexural-torsional-vibration-isolation/
 ├── MATLAB/
 │   ├── fig02_effective_youngs_modulus.m
 │   ├── fig03_flexural_reaction_force.m
