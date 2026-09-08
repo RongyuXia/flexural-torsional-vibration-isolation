@@ -1,6 +1,6 @@
-# JSV Open-Source Code and Models
+# Open-Source Code and Models
 
-This repository contains the MATLAB plotting scripts, numerical data, and COMSOL Multiphysics models associated with the paper *Flexural and torsional vibration isolation of pipe by adaptive locally resonant piezoelectric array*. The study investigates flexural and torsional wave control in a pipe structure using negative-capacitance (NC) shunted piezoelectric resonators.
+This repository contains the MATLAB plotting scripts, numerical data, and COMSOL Multiphysics models associated with the paper *Flexural and torsional vibration isolation of pipe by adaptive locally resonant piezoelectric array*. 
 
 ## Software Requirements
 
