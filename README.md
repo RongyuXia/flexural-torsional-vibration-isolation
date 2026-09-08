@@ -5,7 +5,7 @@ This repository contains the MATLAB plotting scripts, numerical data, and COMSOL
 ## Software Requirements
 
 - **MATLAB** (tested with R2024b; earlier releases that support `importdata` and `saveas` should also work)
-- **COMSOL Multiphysics 6.0** (the simulation models were built with version 6.0; the `.mph` model files can be regenerated from the exported MATLAB model files described below)
+- **COMSOL Multiphysics** (version 6.4 or later)
 
 ## Repository Structure
 
@@ -89,10 +89,6 @@ SVG files are runtime outputs and are not retained in this repository. Remove ge
 
 The `_nc` and `_sc` suffixes denote negative-capacitance and short-circuit shunt cases, respectively.
 
-## Exported COMSOL MATLAB Model Files
+## Exported COMSOL Model Files
 
-The simulation models were built with **COMSOL Multiphysics 6.0**. The four `.m` files in `MATLAB/` (`flexural_SC.m`, `flexural_NC.m`, `torsional_SC.m`, and `torsional_NC.m`) were exported by **COMSOL Multiphysics 6.4**. Running them in COMSOL/MATLAB regenerates the `.mph` source models, from which the geometry, mesh, study settings, and results can be inspected. They can also be used as MATLAB MCP model links.
-
-## License
-
-No license statement is provided at this time.
+The simulation models in `COMSOL/` (`flexural_SC.m`, `flexural_NC.m`, `torsional_SC.m`, and `torsional_NC.m`) must be opened and run using **COMSOL Multiphysics with MATLAB**, version 6.4 or later.
