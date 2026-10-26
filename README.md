@@ -92,3 +92,19 @@ The `_nc` and `_sc` suffixes denote negative-capacitance and short-circuit shunt
 ## Exported COMSOL Model Files
 
 The simulation models in `COMSOL/` (`flexural_SC.m`, `flexural_NC.m`, `torsional_SC.m`, and `torsional_NC.m`) must be opened and run using **COMSOL Multiphysics with MATLAB**, version 6.4 or later.
+
+## Related Publication
+
+If you use this code in your research, please cite the following paper:
+
+```bibtex
+@article{zhang2027JSoundVib,
+  title = {Flexural and Torsional Vibration Isolation of Pipe by Adaptive Locally Resonant Piezoelectric Array},
+  author = {Zhang, Yu and Xia, Rongyu and Zeng, Xianming and Li, Shirui and Huang, Jianliang},
+  year = 2027,
+  journal = {Journal of Sound and Vibration},
+  volume = {648},
+  pages = {120204},
+  doi = {10.1016/j.jsv.2026.120204},
+}
+```
